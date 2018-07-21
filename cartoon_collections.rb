@@ -11,6 +11,7 @@ def summon_captain_planet(planeteer)# code an argument here
   # Your code here
   update_planeteer = [] #to store our new planeteer
 
+#need to understand more on how collect do works
   planeteer.collect do |citizen|
     update_planeteer<< "#{citizen.capitalize}!"
   end
