@@ -8,9 +8,9 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(planeteer)# code an argument here
+  #need to understand more on how collect do works
   # Your code here
   update_planeteer = [] #to store our new planeteer
-#need to understand more on how collect do works
   planeteer.collect do |citizen|
     update_planeteer<< "#{citizen.capitalize}!"
   end
