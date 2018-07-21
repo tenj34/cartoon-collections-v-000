@@ -13,6 +13,8 @@ def summon_captain_planet(planeteer)# code an argument here
 
   planeteer.collect do |citizen|
     update_planeteer<< "#(citizen.capitalize)!"
+  end
+  update_planeteer.to_a
 end
 
 def long_planeteer_calls# code an argument here
